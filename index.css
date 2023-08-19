@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right top, #ab15b9, #9f20c0, #9129c8, #8130cf, #6e37d5, #5655e7, #386df5, #0082ff, #00a9ff, #00c9fe, #7fe5f6, #cafcf8);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conv-row {
+  border: 2px solid rgb(35, 34, 34);
+  box-shadow: 5px 5px 15px black;
+  display: flex;
+  background-image: linear-gradient(to right top, #ff9671, #ff9e6c, #ffa768, #ffb064, #ffba61, #ffc260, #ffcb60, #ffd361, #fedc64, #fde567, #fbef6c, #f9f871);
+  justify-content: space-between;
+  width: 40%;
+  height: 140px;
+}
+.row {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+input {
+  text-align: center;
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
